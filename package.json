@@ -1,7 +1,7 @@
 {
   "name": "vue-resize-observer",
-  "version": "2.0.15",
-  "description": "Vue普通元素resize事件监听",
+  "version": "1.0.0",
+  "description": "Vue resize observer",
   "main": "dist/index.js",
   "files": [
     "dist/index.js ",
@@ -63,12 +63,12 @@
   "peerDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangweiwei/vue-resize-observer.git"
+    "url": "git+https://github.com/RattleSneyk/vue-resize-observer.git"
   },
   "bugs": {
-    "url": "https://github.com/wangweiwei/vue-resize-observer/issues"
+    "url": "https://github.com/RattleSneyk/vue-resize-observerissues"
   },
-  "homepage": "https://github.com/wangweiwei/vue-resize-observer#readme",
-  "author": "wangweiwei",
+  "homepage": "https://github.com/RattleSneyk/vue-resize-observer#readme",
+  "author": "crocone",
   "license": "MIT"
 }

@@ -155,8 +155,8 @@ export const resizeObserverDirective = {
    * @function updated
    */
   updated(el, binding, vnode, oldVnode) {
-    var inserted = false;
-    for (var i = 0, length = el.children.length; i < length; i++) {
+    let inserted = false;
+    for (var i = 0, length = el.children; i < length; i++) {
       if (el.children[i] === el.__resizeTrigger__) {
         inserted = true;
       }
